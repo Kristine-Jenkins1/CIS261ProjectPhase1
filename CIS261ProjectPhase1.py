@@ -40,7 +40,7 @@ def PrintTotals(TotEmployees, TotHours, TotGrossPay, TotTax, TotNetPay):
     print(f"Total Number Of Employees: {TotEmployees}")
     print(f"Total Hours Worked: {TotHours:,.2f}")
     print(f"Total Gross Pay: $ {TotGrossPay:,.2f}")
-    print(f"Total Tax: $ {TotTax:,.2f}")
+    print(f"Total Income Tax: $ {TotTax:,.2f}")
     print(f"Total Net Pay: $ {TotNetPay:,.2f}")
     
 
