@@ -29,7 +29,7 @@ def printinfo(empname, hours, hourlyrate,grosspay, taxrate, incometax, netpay):
     print("Hours Worked: ", f"{hours:,.2f}")
     print("Hourly Rate: $", f"{hourlyrate:,.2f}")
     print("Gross Pay: $", f"{grosspay:,.2f}")
-    print("Income Tax Rate: ", f"{taxrate:.0%}")
+    print("Tax Rate: ", f"{taxrate:.1%}")
     print("Income Tax: $", f"{incometax:,.2f}")
     print("Net Pay: $", f"{netpay:,.2f}")
 
